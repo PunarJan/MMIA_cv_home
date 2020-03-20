@@ -590,3 +590,669 @@
 2020-03-19 22:57:43,173 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 3812mS.
 2020-03-19 22:57:43,189 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
 2020-03-19 22:57:43,189 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-03-20 14:19:18,505 [INFO] Activator:176 - 
+
+
+2020-03-20 14:19:18,552 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-20 14:23:36,894 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-03-20 14:23:36,956 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-03-20 14:23:36,956 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-03-20 14:23:36,956 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-20 14:23:36,956 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-20 14:23:37,050 [INFO] DbMcusAds:85 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:37,050 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:37,066 [INFO] DbMcusJson:61 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:37,066 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:37,066 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:37,128 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-03-20 14:23:37,410 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-03-20 14:23:37,753 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_242
+2020-03-20 14:23:37,753 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-03-20 14:23:37,753 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-03-20 14:23:37,753 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-20 14:23:37,769 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-20 14:23:37,769 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:37,769 [INFO] DbMcusAds:85 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:37,769 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:37,769 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:37,769 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:37,769 [INFO] DbMcusJson:61 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:37,769 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:37,769 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:37,769 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:37,769 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:37,769 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:37,769 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:37,769 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-03-20 14:23:38,894 [INFO] MainPanel:181 - HeapMemory: 300941312
+2020-03-20 14:23:39,191 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-03-20 14:23:39,191 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-03-20 14:23:39,191 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-20 14:23:39,191 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-20 14:23:39,222 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:39,222 [INFO] DbMcusAds:85 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:39,222 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:39,222 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:39,222 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:39,222 [INFO] DbMcusJson:61 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:39,222 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:39,222 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:39,222 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:39,222 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-20 14:23:39,222 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:39,222 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Punar\.stmcufinder\plugins\mcufinder/ => C:\Users\Punar\.stmcufinder\plugins\mcufinder
+2020-03-20 14:23:39,222 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\Punar\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-03-20 14:23:39,284 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-03-20 14:23:39,284 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2020-03-20 14:23:39,284 [INFO] PluginManage:292 - Check plugin analytics
+2020-03-20 14:23:39,347 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-03-20 14:23:39,347 [INFO] PluginManage:292 - Check plugin clock
+2020-03-20 14:23:39,378 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-03-20 14:23:39,378 [INFO] PluginManage:292 - Check plugin ddr
+2020-03-20 14:23:39,425 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-03-20 14:23:39,425 [INFO] PluginManage:292 - Check plugin filemanager
+2020-03-20 14:23:39,691 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-03-20 14:23:39,691 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-03-20 14:23:39,706 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-03-20 14:23:39,706 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-03-20 14:23:39,769 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-03-20 14:23:39,769 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-03-20 14:23:39,862 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-03-20 14:23:39,862 [INFO] PluginManage:292 - Check plugin power
+2020-03-20 14:23:39,972 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-03-20 14:23:39,972 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-03-20 14:23:40,003 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-03-20 14:23:40,003 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-03-20 14:23:40,362 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/Punar/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 250 ms. number of Sw pack : 10
+2020-03-20 14:23:40,441 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-03-20 14:23:40,441 [INFO] PluginManage:292 - Check plugin tools
+2020-03-20 14:23:40,456 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-03-20 14:23:40,456 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-03-20 14:23:40,472 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2020-03-20 14:23:40,472 [INFO] PluginManage:292 - Check plugin updater
+2020-03-20 14:23:40,581 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-03-20 14:23:40,581 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-03-20 14:23:41,284 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 14:23:41,597 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,597 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-03-20 14:23:41,612 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,612 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-03-20 14:23:41,628 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,628 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-03-20 14:23:41,644 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,644 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-03-20 14:23:41,675 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,675 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-03-20 14:23:41,691 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,691 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-03-20 14:23:41,753 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,753 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-03-20 14:23:41,769 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,769 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-03-20 14:23:41,784 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,784 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-03-20 14:23:41,815 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,815 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-03-20 14:23:41,831 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,831 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-03-20 14:23:41,847 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,847 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-03-20 14:23:41,878 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,878 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-03-20 14:23:41,894 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,894 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-03-20 14:23:41,909 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,909 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-03-20 14:23:41,940 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,956 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-03-20 14:23:41,972 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,972 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-03-20 14:23:41,987 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,987 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-03-20 14:23:41,987 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:41,987 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-03-20 14:23:42,003 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,003 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-03-20 14:23:42,019 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,019 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-03-20 14:23:42,065 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,065 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-03-20 14:23:42,065 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,065 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-03-20 14:23:42,065 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,065 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-03-20 14:23:42,097 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,112 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-03-20 14:23:42,112 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,112 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-03-20 14:23:42,144 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,144 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-03-20 14:23:42,159 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,159 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-03-20 14:23:42,175 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,175 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-03-20 14:23:42,190 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,190 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-03-20 14:23:42,206 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,206 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-03-20 14:23:42,237 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,237 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-03-20 14:23:42,253 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,253 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-03-20 14:23:42,253 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,253 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-03-20 14:23:42,269 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,269 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-03-20 14:23:42,269 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,269 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-03-20 14:23:42,284 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:42,284 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-03-20 14:23:43,690 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-03-20 14:23:43,690 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2020-03-20 14:23:44,086 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-20 14:23:44,696 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-20 14:23:44,711 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 14:23:44,711 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-20 14:23:44,711 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-03-20 14:23:44,711 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-03-20 14:23:44,727 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2020-03-20 14:23:46,158 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-03-20 14:23:46,190 [INFO] Updater:886 - Updater Version found : 5.6.0
+2020-03-20 14:23:46,251 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-03-20 14:23:46,406 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-20 14:23:46,406 [ERROR] IntegrityCheckThread:252 - Cannot obtain thirdParties list 21
+2020-03-20 14:23:46,406 [ERROR] IntegrityCheckThread:100 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2020-03-20 14:23:46,406 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/Punar/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-03-20 14:23:46,812 [INFO] MainUpdater:2230 - connection check result : 10
+2020-03-20 14:23:46,812 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2020-03-20 14:23:46,812 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 14:23:46,922 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-03-20 14:23:47,047 [INFO] MainUpdater:2230 - connection check result : 10
+2020-03-20 14:23:47,500 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 14:23:47,500 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 14:23:47,500 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 14:23:47,500 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 221994120 Bytes (300941312)
+2020-03-20 14:23:47,500 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 14:23:47,500 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 14:23:47,500 [INFO] OpenFileManager:274 - Change cursor
+2020-03-20 14:23:50,640 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-03-20 14:23:50,859 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 251754928 Bytes (300941312)
+2020-03-20 14:23:50,859 [INFO] DbMcusXml:110 - Load MCU database from C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/families.xml
+2020-03-20 14:23:51,984 [INFO] DbMcusJson:90 - JSON generation date=Wed Feb 26 09:53:47 CET 2020 (1582707227)
+2020-03-20 14:23:53,156 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-03-20 14:23:53,156 [INFO] ApiDb:147 - User favorites file not found: C:\Users\Punar/.stm32cubemx/favorites.mcus.txt
+2020-03-20 14:23:53,156 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2020-03-20 14:23:53,187 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/Punar/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 16 ms. number of Sw pack : 10
+2020-03-20 14:23:53,374 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643480839]
+2020-03-20 14:23:53,374 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1584643480166
+2020-03-20 14:23:53,374 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643483415, 1584643480922]
+2020-03-20 14:23:53,562 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-03-20 14:23:53,562 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-03-20 14:23:53,562 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-03-20 14:23:53,562 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-03-20 14:23:53,562 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-03-20 14:23:53,562 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-03-20 14:23:53,562 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-03-20 14:23:54,062 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 14:23:54,062 [INFO] PinOutPanel:1420 - setPackage(STM32F030R8Tx,LQFP64)
+2020-03-20 14:23:54,843 [INFO] UtilMem:74 - Before build in PCC Used Memory: 367039704 Bytes (615514112)
+2020-03-20 14:23:55,874 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 14:23:55,999 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 14:23:56,093 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 14:23:56,093 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 14:23:56,609 [INFO] UtilMem:74 - After build in PCC Used Memory: 421043408 Bytes (615514112)
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,655 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 14:23:56,780 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-03-20 14:23:56,937 [INFO] OpenFileManager:294 - Restore cursor
+2020-03-20 15:15:56,451 [INFO] MainUpdater:2230 - connection check result : 10
+2020-03-20 15:15:57,471 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 15:15:57,502 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 15:15:57,522 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 15:15:57,522 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 207901880 Bytes (781189120)
+2020-03-20 15:15:57,882 [INFO] MicroXplorer:390 - Change Database Path : C:/Users/Punar/.stm32cubemx/databases/DB.5.0.50/db/
+2020-03-20 15:15:57,882 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.50
+2020-03-20 15:15:57,897 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] *****Project Manager Settings
+2020-03-20 15:15:59,276 [INFO] OpenFileManager:274 - Change cursor
+2020-03-20 15:16:02,539 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (USART2_RX) currently not set
+2020-03-20 15:16:02,539 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (USART2_RX) currently not set
+2020-03-20 15:16:02,539 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (USART2_RX) currently not set
+2020-03-20 15:16:02,539 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (USART2_RX) currently not set
+2020-03-20 15:16:02,539 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (USART2_RX) currently not set
+2020-03-20 15:16:02,539 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (USART2_RX) currently not set
+2020-03-20 15:16:02,539 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (USART2_RX) currently not set
+2020-03-20 15:16:02,539 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (USART2_RX) currently not set
+2020-03-20 15:16:02,539 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-03-20 15:16:02,934 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 260091032 Bytes (781189120)
+2020-03-20 15:16:03,028 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643480839]
+2020-03-20 15:16:03,028 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1584643480166
+2020-03-20 15:16:03,028 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643483415, 1584643480922]
+2020-03-20 15:16:03,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-03-20 15:16:03,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-03-20 15:16:03,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-03-20 15:16:03,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-03-20 15:16:03,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-03-20 15:16:03,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-03-20 15:16:03,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-03-20 15:16:03,939 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 15:16:04,032 [INFO] PinOutPanel:1420 - setPackage(STM32F030R8Tx,LQFP64)
+2020-03-20 15:16:05,443 [INFO] UtilMem:74 - Before build in PCC Used Memory: 376256512 Bytes (781189120)
+2020-03-20 15:16:06,556 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 15:16:06,998 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 15:16:07,108 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 15:16:07,108 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 15:16:07,248 [INFO] UtilMem:74 - After build in PCC Used Memory: 414527496 Bytes (781189120)
+2020-03-20 15:16:07,280 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,280 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,280 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,280 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,280 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,280 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,280 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,280 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,295 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 15:16:07,498 [INFO] OpenFileManager:294 - Restore cursor
+2020-03-20 15:16:07,670 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 421345280 Bytes (781189120)
+2020-03-20 17:07:33,527 [INFO] MainUpdater:2230 - connection check result : 10
+2020-03-20 17:07:37,356 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 17:07:37,387 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 17:07:37,488 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 17:07:37,606 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 574485808 Bytes (781189120)
+2020-03-20 17:07:37,643 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 17:07:37,659 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 17:07:37,659 [INFO] OpenFileManager:274 - Change cursor
+2020-03-20 17:07:38,635 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-03-20 17:07:44,400 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-03-20 17:07:44,619 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 442804832 Bytes (781189120)
+2020-03-20 17:07:45,013 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643480839]
+2020-03-20 17:07:45,023 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1584643480166
+2020-03-20 17:07:45,023 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643483415, 1584643480922]
+2020-03-20 17:07:45,119 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-03-20 17:07:45,119 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-03-20 17:07:45,119 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-03-20 17:07:45,119 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-03-20 17:07:45,119 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-03-20 17:07:45,119 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-03-20 17:07:45,119 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-03-20 17:07:46,415 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 17:07:46,600 [INFO] PinOutPanel:1420 - setPackage(STM32F030R8Tx,LQFP64)
+2020-03-20 17:07:48,463 [INFO] UtilMem:74 - Before build in PCC Used Memory: 508638664 Bytes (781189120)
+2020-03-20 17:07:50,128 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:07:50,445 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:07:50,761 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:07:50,792 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:07:51,327 [INFO] UtilMem:74 - After build in PCC Used Memory: 547435976 Bytes (781189120)
+2020-03-20 17:07:51,582 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,682 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,698 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,698 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,713 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,713 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,729 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,729 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,729 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,729 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,729 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,729 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,729 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,729 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,751 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,751 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,782 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,782 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,797 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,797 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,797 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,797 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,797 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,797 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,797 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:51,797 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:07:52,400 [INFO] OpenFileManager:294 - Restore cursor
+2020-03-20 17:08:32,997 [INFO] Gpio:248 - dependency for GPIO [RCC, SYS, USART2]
+2020-03-20 17:10:10,310 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 305661760 Bytes (781189120)
+2020-03-20 17:10:15,311 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 313737864 Bytes (781189120)
+2020-03-20 17:10:28,643 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 329863016 Bytes (781189120)
+2020-03-20 17:10:32,420 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-03-20 17:10:32,420 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2020-03-20 17:10:32,420 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-03-20 17:10:32,420 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-03-20 17:10:32,420 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-03-20 17:10:32,427 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2020-03-20 17:10:37,043 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\license.tmp_save
+2020-03-20 17:10:42,279 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\license.tmp
+2020-03-20 17:10:45,423 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\gpio.tmp_save
+2020-03-20 17:10:45,839 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\gpio.tmp
+2020-03-20 17:10:47,382 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-03-20 17:10:47,444 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2020-03-20 17:10:47,444 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-03-20 17:10:47,444 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-03-20 17:10:47,444 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-03-20 17:10:47,582 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\stm32f0xx_it.c_save
+2020-03-20 17:10:48,283 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\stm32f0xx_it.c
+2020-03-20 17:10:48,293 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\stm32f0xx_it.h_save
+2020-03-20 17:10:48,575 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\stm32f0xx_it.h
+2020-03-20 17:10:49,211 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\stm32f0xx_hal_msp.c_save
+2020-03-20 17:10:50,004 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\stm32f0xx_hal_msp.c
+2020-03-20 17:10:50,114 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\system.tmp_save
+2020-03-20 17:10:50,245 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\system.tmp
+2020-03-20 17:10:50,509 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\stm32f0xx_hal_conf.h_save
+2020-03-20 17:10:50,738 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\stm32f0xx_hal_conf.h
+2020-03-20 17:10:50,900 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-03-20 17:10:50,902 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-03-20 17:10:51,046 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\main.h_save
+2020-03-20 17:10:51,628 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\main.h
+2020-03-20 17:10:51,699 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\main.c_save
+2020-03-20 17:11:22,147 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\main.c
+2020-03-20 17:11:29,844 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 1967mS.
+2020-03-20 17:11:30,108 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-03-20 17:11:34,586 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-03-20 17:11:48,427 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 18319mS.
+2020-03-20 17:11:48,427 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-03-20 17:11:48,443 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-03-20 17:43:23,825 [INFO] MainUpdater:2230 - connection check result : 10
+2020-03-20 17:43:26,931 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 17:43:26,947 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 17:43:27,209 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 17:43:27,432 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 500924784 Bytes (1060110336)
+2020-03-20 17:43:27,827 [INFO] MicroXplorer:390 - Change Database Path : C:/Users/Punar/.stm32cubemx/databases/DB.5.0.50/db/
+2020-03-20 17:43:27,827 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.50
+2020-03-20 17:43:28,012 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] *****Project Manager Settings
+2020-03-20 17:43:30,257 [INFO] OpenFileManager:274 - Change cursor
+2020-03-20 17:43:30,906 [INFO] RulesReader:52 - Compatibility file has been processed (205 Rules)
+2020-03-20 17:43:36,456 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-03-20 17:43:36,788 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 567146648 Bytes (1060110336)
+2020-03-20 17:43:38,183 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643480839]
+2020-03-20 17:43:38,224 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1584643480166
+2020-03-20 17:43:38,255 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643483415, 1584643480922]
+2020-03-20 17:43:38,638 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-03-20 17:43:38,638 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-03-20 17:43:38,638 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-03-20 17:43:38,638 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-03-20 17:43:38,638 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-03-20 17:43:38,638 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-03-20 17:43:38,638 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-03-20 17:43:41,574 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 17:43:41,837 [INFO] PinOutPanel:1420 - setPackage(STM32F030R8Tx,LQFP64)
+2020-03-20 17:43:44,152 [INFO] UtilMem:74 - Before build in PCC Used Memory: 633506808 Bytes (1060110336)
+2020-03-20 17:43:46,617 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:43:46,733 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:43:47,050 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:43:47,050 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:43:47,235 [INFO] UtilMem:74 - After build in PCC Used Memory: 672310280 Bytes (1060110336)
+2020-03-20 17:43:47,250 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,250 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,250 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,250 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,304 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,335 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,335 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,335 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,335 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,335 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,335 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,335 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,335 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:47,335 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:43:48,423 [INFO] OpenFileManager:294 - Restore cursor
+2020-03-20 17:43:49,289 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 678595576 Bytes (1060110336)
+2020-03-20 17:44:18,596 [INFO] MainUpdater:2230 - connection check result : 10
+2020-03-20 17:44:18,645 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 17:44:18,645 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 17:44:18,645 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 17:44:18,676 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 348432056 Bytes (1060110336)
+2020-03-20 17:44:18,676 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 17:44:18,676 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 17:44:18,676 [INFO] OpenFileManager:274 - Change cursor
+2020-03-20 17:44:18,743 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-03-20 17:44:24,208 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-03-20 17:44:24,509 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 344007448 Bytes (1060110336)
+2020-03-20 17:44:24,525 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643480839]
+2020-03-20 17:44:24,525 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1584643480166
+2020-03-20 17:44:24,525 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643483415, 1584643480922]
+2020-03-20 17:44:24,578 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-03-20 17:44:24,578 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-03-20 17:44:24,578 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-03-20 17:44:24,578 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-03-20 17:44:24,578 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-03-20 17:44:24,578 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-03-20 17:44:24,578 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-03-20 17:44:24,694 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 17:44:24,758 [INFO] PinOutPanel:1420 - setPackage(STM32F030R8Tx,LQFP64)
+2020-03-20 17:44:25,353 [INFO] UtilMem:74 - Before build in PCC Used Memory: 267759224 Bytes (1060110336)
+2020-03-20 17:44:25,970 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:44:26,055 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:44:26,071 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:44:26,086 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:44:26,124 [INFO] UtilMem:74 - After build in PCC Used Memory: 312325744 Bytes (1060110336)
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:44:26,205 [INFO] OpenFileManager:294 - Restore cursor
+2020-03-20 17:45:47,722 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 497022720 Bytes (1067450368)
+2020-03-20 17:45:49,060 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 504645728 Bytes (1067450368)
+2020-03-20 17:45:50,047 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 252791928 Bytes (1067450368)
+2020-03-20 17:45:50,901 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-03-20 17:45:50,901 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2020-03-20 17:45:50,901 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-03-20 17:45:50,901 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-03-20 17:45:50,901 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-03-20 17:45:50,901 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2020-03-20 17:45:51,355 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\license.tmp_save
+2020-03-20 17:45:51,540 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\license.tmp
+2020-03-20 17:45:51,788 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\gpio.tmp_save
+2020-03-20 17:45:51,888 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\gpio.tmp
+2020-03-20 17:45:52,392 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-03-20 17:45:52,392 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2020-03-20 17:45:52,392 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-03-20 17:45:52,402 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-03-20 17:45:52,402 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-03-20 17:45:52,473 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\stm32f0xx_it.c_save
+2020-03-20 17:45:52,786 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\stm32f0xx_it.c
+2020-03-20 17:45:52,834 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\stm32f0xx_it.h_save
+2020-03-20 17:45:52,988 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\stm32f0xx_it.h
+2020-03-20 17:45:53,058 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\stm32f0xx_hal_msp.c_save
+2020-03-20 17:45:56,584 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\stm32f0xx_hal_msp.c
+2020-03-20 17:45:56,624 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\system.tmp_save
+2020-03-20 17:45:56,702 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\MXTmpFiles\system.tmp
+2020-03-20 17:45:56,785 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\stm32f0xx_hal_conf.h_save
+2020-03-20 17:45:59,310 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\stm32f0xx_hal_conf.h
+2020-03-20 17:45:59,348 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-03-20 17:45:59,969 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-03-20 17:46:00,038 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\main.h_save
+2020-03-20 17:46:00,185 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Inc\main.h
+2020-03-20 17:46:00,254 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\main.c_save
+2020-03-20 17:46:00,517 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv06_home\Core\Src\main.c
+2020-03-20 17:46:06,550 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 2980mS.
+2020-03-20 17:46:06,572 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-03-20 17:46:10,446 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-03-20 17:46:18,580 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 12008mS.
+2020-03-20 17:46:18,718 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-03-20 17:46:18,718 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-03-20 17:47:16,885 [INFO] MainUpdater:2230 - connection check result : 10
+2020-03-20 17:47:16,938 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 17:47:16,938 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 17:47:16,938 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 17:47:16,954 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 426375584 Bytes (1073741824)
+2020-03-20 17:47:16,954 [INFO] MicroXplorer:390 - Change Database Path : C:/Users/Punar/.stm32cubemx/databases/DB.5.0.50/db/
+2020-03-20 17:47:16,954 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.50
+2020-03-20 17:47:16,970 [INFO] OpenFileManager:274 - Change cursor
+2020-03-20 17:47:17,023 [INFO] RulesReader:52 - Compatibility file has been processed (205 Rules)
+2020-03-20 17:47:18,458 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-03-20 17:47:18,590 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 442261160 Bytes (1073741824)
+2020-03-20 17:47:18,590 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643480839]
+2020-03-20 17:47:18,590 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1584643480166
+2020-03-20 17:47:18,590 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643483415, 1584643480922]
+2020-03-20 17:47:18,627 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-03-20 17:47:18,627 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-03-20 17:47:18,627 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-03-20 17:47:18,627 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-03-20 17:47:18,627 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-03-20 17:47:18,627 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-03-20 17:47:18,627 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-03-20 17:47:18,705 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 17:47:18,721 [INFO] PinOutPanel:1420 - setPackage(STM32F030R8Tx,LQFP64)
+2020-03-20 17:47:19,131 [INFO] UtilMem:74 - Before build in PCC Used Memory: 506524168 Bytes (1073741824)
+2020-03-20 17:47:19,365 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:47:19,397 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:47:19,428 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:47:19,428 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:47:19,466 [INFO] UtilMem:74 - After build in PCC Used Memory: 545321480 Bytes (1073741824)
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:19,533 [INFO] OpenFileManager:294 - Restore cursor
+2020-03-20 17:47:45,652 [INFO] MainUpdater:2230 - connection check result : 10
+2020-03-20 17:47:45,752 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 17:47:45,752 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 17:47:45,752 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 17:47:45,768 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 709664520 Bytes (1073741824)
+2020-03-20 17:47:45,768 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-03-20 17:47:45,784 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-20 17:47:45,784 [INFO] OpenFileManager:274 - Change cursor
+2020-03-20 17:47:47,978 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-03-20 17:47:48,078 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 470196752 Bytes (1073741824)
+2020-03-20 17:47:48,078 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643480839]
+2020-03-20 17:47:48,078 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1584643480166
+2020-03-20 17:47:48,078 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584643483415, 1584643480922]
+2020-03-20 17:47:48,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-03-20 17:47:48,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-03-20 17:47:48,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-03-20 17:47:48,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-03-20 17:47:48,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-03-20 17:47:48,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-03-20 17:47:48,122 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-03-20 17:47:48,193 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-20 17:47:48,201 [INFO] PinOutPanel:1420 - setPackage(STM32F030R8Tx,LQFP64)
+2020-03-20 17:47:48,632 [INFO] UtilMem:74 - Before build in PCC Used Memory: 534979960 Bytes (1073741824)
+2020-03-20 17:47:48,933 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:47:48,964 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:47:48,995 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:47:48,995 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Punar/.stm32cubemx/plugins/power
+2020-03-20 17:47:49,080 [INFO] UtilMem:74 - After build in PCC Used Memory: 338374000 Bytes (1073741824)
+2020-03-20 17:47:49,080 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,080 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,096 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-20 17:47:49,111 [INFO] OpenFileManager:294 - Restore cursor
