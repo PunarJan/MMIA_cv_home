@@ -1,15 +1,27 @@
-filename = 'ntc.csv';
-M = csvread(filename)
+clear all;
+close all;
 
-ad=M(:, 2);
-t=M(:, 1);
+filename = 'ntc.csv';
+M = csvread(filename);
+
+rk=M(:, 2); %rezistivity kohm
+t=M(:, 1); %temperature degrees C
+
+Vref=3.3; 
+rf=10000;
+rohm=rk*1000;
+
+Vout=Vref*(rohm./(rohm+rf)); %ADC voltage [V]
+
+
+ad=(1023/Vref)*Vout;
+plot (ad, t)
 
 p = polyfit(ad, t, 10);
 
-plot (ad, t)
-
 ad2=0:1023;
-t2 = round(polyval(p, ad2)); 
+h=polyval(p, ad2)';
+t2 = round(h) 
 hold on, plot(ad2, t2, 'r'); 
 
-dlmwrite('data.dlm', t2*10, ','); 
+dlmwrite('data.dlm', t2'*10, ','); 
