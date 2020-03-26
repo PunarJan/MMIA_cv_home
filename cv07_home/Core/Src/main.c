@@ -20,12 +20,13 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "cmsis_os.h"
-#include "lis2dw12_reg.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "cmsis_os.h"
+#include "lis2dw12_reg.h"
+#include <stdio.h>
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,12 +91,17 @@ static int32_t platform_read(void *handle, uint8_t reg, uint8_t *bufp, uint16_t 
 static int32_t platform_write(void *handle, uint8_t reg, uint8_t *bufp, uint16_t len);
 static int32_t platform_read(void *handle, uint8_t reg, uint8_t *bufp, uint16_t len);
 static stmdev_ctx_t lis2dw12 = {
-
-
  .write_reg = platform_write,
  .read_reg = platform_read,
  .handle = &hi2c1,
 };
+
+int _write(int file, char const *buf, int n)
+{
+ /* stdout redirection to UART2 */
+ HAL_UART_Transmit(&huart2, (uint8_t*)(buf), n, HAL_MAX_DELAY);
+ return n;
+}
 
 
 /* USER CODE END 0 */
@@ -117,6 +123,12 @@ int main(void)
 
   /* USER CODE BEGIN Init */
 
+  lis2dw12_full_scale_set(&lis2dw12, LIS2DW12_2g);
+  lis2dw12_power_mode_set(&lis2dw12, LIS2DW12_CONT_LOW_PWR_LOW_NOISE_2);
+  lis2dw12_block_data_update_set(&lis2dw12, PROPERTY_ENABLE);
+  lis2dw12_fifo_mode_set(&lis2dw12, LIS2DW12_STREAM_MODE); // enable continuous FIFO
+  lis2dw12_data_rate_set(&lis2dw12, LIS2DW12_XL_ODR_25Hz); // enable part from power-down
+
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -131,20 +143,13 @@ int main(void)
   MX_USART2_UART_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-  if (xQueueReceive(xVisualQueueHandle, &msg, portMAX_DELAY))
-  {
-	if (msg < -200)
-	{
-		  HAL_GPIO_WritePin(LED2_GPIO_Port, LED1_Pin, 1);
-	}
-	else if (msg > 200)
-		{
-		  HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, 1);
-		}
-  }
 
-  xQueueSend(xVisualQueueHandle, &msg, 0);
-  osDelay(300);
+  uint8_t whoamI = 0;
+
+  printf("Hello\n");
+
+  lis2dw12_device_id_get(&lis2dw12, &whoamI);
+  printf("LIS2DW12_ID %s\n", (whoamI == LIS2DW12_ID) ? "OK" : "FAIL");
 
   /* USER CODE END 2 */
 
@@ -194,6 +199,21 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  if (xQueueReceive(xVisualQueueHandle, &msg, portMAX_DELAY))
+	  {
+		  if (msg < -200)
+		  {
+			  HAL_GPIO_WritePin(LED2_GPIO_Port, LED1_Pin, 1);
+		  }
+		  else if (msg > 200)
+		  {
+			  HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, 1);
+		  }
+	  }
+
+	  xQueueSend(xVisualQueueHandle, &msg, 0);
+	  osDelay(300);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
