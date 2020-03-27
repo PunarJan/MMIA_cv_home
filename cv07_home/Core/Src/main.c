@@ -31,11 +31,18 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+typedef union
+{
+	int16_t i16bit [3];
+	uint8_t u8bit [8];
+} axis3bit16_t;
 
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define SEND_TO_QUEUE 50
+#define ACCELERO_DELAY 1000
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -79,10 +86,7 @@ static stmdev_ctx_t lis2dw12 = {
 /* USER CODE BEGIN 0 */
 
 int16_t msg;
-/*
- * Replace the functions "platform_write" and "platform_read" with your
- * platform specific read and write function.
- */
+
 static int32_t platform_write(void *handle, uint8_t reg, uint8_t *bufp, uint16_t len)
 {
  HAL_I2C_Mem_Write(handle, LIS2DW12_I2C_ADD_H, reg, I2C_MEMADD_SIZE_8BIT, bufp, len, 1000);
@@ -425,6 +429,10 @@ void StartAcceleroTask(void const * argument)
 {
   /* USER CODE BEGIN StartAcceleroTask */
 	uint8_t whoamI = 0;
+	uint8_t samples;
+	uint16_t counter =0;
+	axis3bit16_t data_raw_acceleration;
+
 	lis2dw12_device_id_get(&lis2dw12, &whoamI);
 	printf("LIS2DW12_ID %s\n", (whoamI == LIS2DW12_ID) ? "OK" : "FAIL");
 
@@ -434,12 +442,30 @@ void StartAcceleroTask(void const * argument)
 	lis2dw12_fifo_mode_set(&lis2dw12, LIS2DW12_STREAM_MODE); // enable continuous FIFO
 	lis2dw12_data_rate_set(&lis2dw12, LIS2DW12_XL_ODR_25Hz); // enable part from power-down
   /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-	  xQueueSend(xVisualQueueHandle, &msg, 0);
-	  osDelay(300);
-  }
+	for(;;)
+	{
+		/*
+		 * osDelay(1);
+		xQueueSend(xVisualQueueHandle, &msg, 0);
+		osDelay(300);
+		 */
+		if (counter > ACCELERO_DELAY/SEND_TO_QUEUE)
+		{
+			lis2dw12_fifo_data_level_get(&lis2dw12, &samples);
+			for (uint8_t i = 0; i < samples; i++) {
+
+				// Read acceleration data
+				lis2dw12_acceleration_raw_get(&lis2dw12, data_raw_acceleration.u8bit);
+				printf("X=%d Y=%d Z=%d\n", data_raw_acceleration.i16bit[0],
+						data_raw_acceleration.i16bit[1], data_raw_acceleration.i16bit[2]);
+				counter=0;
+			}
+		}
+		xQueueSend(xVisualQueueHandle, &data_raw_acceleration.i16bit[0], 0);
+		osDelay(SEND_TO_QUEUE);
+		counter++;
+
+	}
   /* USER CODE END StartAcceleroTask */
 }
 
