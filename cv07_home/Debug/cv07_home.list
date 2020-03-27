@@ -37,13 +37,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  16 .debug_macro  0001035e  00000000  00000000  0003f910  2**0
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_line   00010c97  00000000  00000000  0004fc6e  2**0
+ 17 .debug_line   00010c8f  00000000  00000000  0004fc6e  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    0005910d  00000000  00000000  00060905  2**0
+ 18 .debug_str    0005910d  00000000  00000000  000608fd  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  000b9a12  2**0
+ 19 .comment      0000007b  00000000  00000000  000b9a0a  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00005ecc  00000000  00000000  000b9a90  2**2
+ 20 .debug_frame  00005ecc  00000000  00000000  000b9a88  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -1826,13 +1826,13 @@ void StartAcceleroTask(void const * argument)
  8000b5e:	0011      	movs	r1, r2
  8000b60:	0018      	movs	r0, r3
  8000b62:	f7ff fd1a 	bl	800059a <lis2dw12_fifo_data_level_get>
-			for (uint8_t i = 0; i < samples; i++) {
+			for (uint8_t i = 0; i < samples; i++)
  8000b66:	2315      	movs	r3, #21
  8000b68:	18fb      	adds	r3, r7, r3
  8000b6a:	2200      	movs	r2, #0
  8000b6c:	701a      	strb	r2, [r3, #0]
- 8000b6e:	e020      	b.n	8000bb2 <StartAcceleroTask+0xd6>
-
+ 8000b6e:	e01c      	b.n	8000baa <StartAcceleroTask+0xce>
+			{
 				// Read acceleration data
 				lis2dw12_acceleration_raw_get(&lis2dw12, data_raw_acceleration.u8bit);
  8000b70:	2008      	movs	r0, #8
@@ -1861,27 +1861,27 @@ void StartAcceleroTask(void const * argument)
 				printf("X=%d Y=%d Z=%d\n", data_raw_acceleration.i16bit[0],
  8000b98:	4817      	ldr	r0, [pc, #92]	; (8000bf8 <StartAcceleroTask+0x11c>)
  8000b9a:	f004 fbc3 	bl	8005324 <iprintf>
-				counter=0;
- 8000b9e:	2316      	movs	r3, #22
- 8000ba0:	18fb      	adds	r3, r7, r3
- 8000ba2:	2200      	movs	r2, #0
- 8000ba4:	801a      	strh	r2, [r3, #0]
-			for (uint8_t i = 0; i < samples; i++) {
- 8000ba6:	2115      	movs	r1, #21
- 8000ba8:	187b      	adds	r3, r7, r1
- 8000baa:	781a      	ldrb	r2, [r3, #0]
- 8000bac:	187b      	adds	r3, r7, r1
- 8000bae:	3201      	adds	r2, #1
- 8000bb0:	701a      	strb	r2, [r3, #0]
- 8000bb2:	2313      	movs	r3, #19
- 8000bb4:	18fb      	adds	r3, r7, r3
- 8000bb6:	781b      	ldrb	r3, [r3, #0]
- 8000bb8:	2215      	movs	r2, #21
- 8000bba:	18ba      	adds	r2, r7, r2
- 8000bbc:	7812      	ldrb	r2, [r2, #0]
- 8000bbe:	429a      	cmp	r2, r3
- 8000bc0:	d3d6      	bcc.n	8000b70 <StartAcceleroTask+0x94>
+			for (uint8_t i = 0; i < samples; i++)
+ 8000b9e:	2115      	movs	r1, #21
+ 8000ba0:	187b      	adds	r3, r7, r1
+ 8000ba2:	781a      	ldrb	r2, [r3, #0]
+ 8000ba4:	187b      	adds	r3, r7, r1
+ 8000ba6:	3201      	adds	r2, #1
+ 8000ba8:	701a      	strb	r2, [r3, #0]
+ 8000baa:	2313      	movs	r3, #19
+ 8000bac:	18fb      	adds	r3, r7, r3
+ 8000bae:	781b      	ldrb	r3, [r3, #0]
+ 8000bb0:	2215      	movs	r2, #21
+ 8000bb2:	18ba      	adds	r2, r7, r2
+ 8000bb4:	7812      	ldrb	r2, [r2, #0]
+ 8000bb6:	429a      	cmp	r2, r3
+ 8000bb8:	d3da      	bcc.n	8000b70 <StartAcceleroTask+0x94>
 			}
+			counter=0;
+ 8000bba:	2316      	movs	r3, #22
+ 8000bbc:	18fb      	adds	r3, r7, r3
+ 8000bbe:	2200      	movs	r2, #0
+ 8000bc0:	801a      	strh	r2, [r3, #0]
 		}
 		xQueueSend(xVisualQueueHandle, &data_raw_acceleration.i16bit[0], 0);
  8000bc2:	4b0e      	ldr	r3, [pc, #56]	; (8000bfc <StartAcceleroTask+0x120>)

@@ -452,14 +452,14 @@ void StartAcceleroTask(void const * argument)
 		if (counter > ACCELERO_DELAY/SEND_TO_QUEUE)
 		{
 			lis2dw12_fifo_data_level_get(&lis2dw12, &samples);
-			for (uint8_t i = 0; i < samples; i++) {
-
+			for (uint8_t i = 0; i < samples; i++)
+			{
 				// Read acceleration data
 				lis2dw12_acceleration_raw_get(&lis2dw12, data_raw_acceleration.u8bit);
 				printf("X=%d Y=%d Z=%d\n", data_raw_acceleration.i16bit[0],
 						data_raw_acceleration.i16bit[1], data_raw_acceleration.i16bit[2]);
-				counter=0;
 			}
+			counter=0;
 		}
 		xQueueSend(xVisualQueueHandle, &data_raw_acceleration.i16bit[0], 0);
 		osDelay(SEND_TO_QUEUE);
