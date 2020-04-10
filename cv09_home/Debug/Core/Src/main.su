@@ -1,0 +1,10 @@
+main.c:66:6:step	24	static
+main.c:78:6:circle	40	static
+main.c:96:6:mouth	40	static
+main.c:114:6:nose	16	static
+main.c:126:13:face	8	static
+main.c:148:5:main	8	static
+main.c:194:6:SystemClock_Config	88	static
+main.c:237:13:MX_USART3_UART_Init	8	static
+main.c:270:13:MX_GPIO_Init	56	static
+main.c:356:6:Error_Handler	4	static

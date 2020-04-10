@@ -111,18 +111,34 @@ void mouth (int16_t r)
 	}
 }
 
-void nose ()
+void nose (void)
 {
 	int16_t x = 0;
 	int16_t y;
 
-	while (y < 50)
+	while (y < 5)
 	{
 		y += 1;
 		step (x, y);
 	}
 }
 
+static void face (void)
+{
+	step (0, 0);
+	circle (30); // head
+	step (-10, 10);
+	circle (5); // yey
+	step (10, 10);
+	circle(5); // yey
+	step(0, 0);
+	mouth(15);
+	step(0, 5);
+	nose();
+
+	HAL_Delay(1000);
+
+}
 /* USER CODE END 0 */
 
 /**
@@ -157,7 +173,7 @@ int main(void)
   MX_USART3_UART_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-
+  face ();
   /* USER CODE END 2 */
 
   /* Infinite loop */
