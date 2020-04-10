@@ -24,7 +24,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include  "usbd_hid.h"
+#include  <math.h>
+#include <stdbool.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -34,6 +36,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define PI 3.14159
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -58,6 +61,67 @@ static void MX_USART3_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+extern USBD_HandleTypeDef hUsbDeviceFS;
+
+void step (int16_t x, int16_t y)
+{
+	uint8_t buff[4];
+	buff[0] = 0x01; // stiskni leve tlacitko
+	buff[1] = x; // posun X +10
+	buff[2] = y; // posun Y -3
+	buff[3] = 0; // bez scrollu
+
+	USBD_HID_SendReport(&hUsbDeviceFS, buff, sizeof(buff));
+	HAL_Delay(USBD_HID_GetPollingInterval(&hUsbDeviceFS));
+}
+
+void circle (int16_t r)
+{
+	int16_t x;
+	int16_t y;
+
+	float phi = 0.0;
+	float phi_step = 0.1;
+
+	while (phi < 2*PI)
+	{
+		x = r * cos (phi);
+		y = r * sin (phi);
+
+		phi = phi + phi_step;
+		step (x, y);
+	}
+}
+
+void mouth (int16_t r)
+{
+	int16_t x;
+	int16_t y;
+
+	float phi = 0.0;
+	float phi_step = 0.1;
+
+	while (phi < PI)
+	{
+		x = r * cos (phi + PI);
+		y = r * sin (phi + PI);
+
+		phi = phi + phi_step;
+		step (x, y);
+	}
+}
+
+void nose ()
+{
+	int16_t x = 0;
+	int16_t y;
+
+	while (y < 50)
+	{
+		y += 1;
+		step (x, y);
+	}
+}
 
 /* USER CODE END 0 */
 
@@ -68,6 +132,7 @@ static void MX_USART3_UART_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+
 
   /* USER CODE END 1 */
 
