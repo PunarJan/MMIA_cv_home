@@ -37,13 +37,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  16 .debug_macro  00025998  00000000  00000000  000363a8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_line   0000caed  00000000  00000000  0005bd40  2**0
+ 17 .debug_line   0000caec  00000000  00000000  0005bd40  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    000d54f9  00000000  00000000  0006882d  2**0
+ 18 .debug_str    000d54f9  00000000  00000000  0006882c  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  0013dd26  2**0
+ 19 .comment      0000007b  00000000  00000000  0013dd25  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00003870  00000000  00000000  0013dda4  2**2
+ 20 .debug_frame  00003870  00000000  00000000  0013dda0  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -1503,15 +1503,14 @@ int main(void)
  80010ae:	f000 f86f 	bl	8001190 <MX_USART3_UART_Init>
   MX_USB_DEVICE_Init();
  80010b2:	f003 fca9 	bl	8004a08 <MX_USB_DEVICE_Init>
-  /* USER CODE BEGIN 2 */
-  face ();
- 80010b6:	f7ff ffc7 	bl	8001048 <face>
-  /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
- 80010ba:	e7fe      	b.n	80010ba <main+0x1c>
+  {
+	  face ();
+ 80010b6:	f7ff ffc7 	bl	8001048 <face>
+ 80010ba:	e7fc      	b.n	80010b6 <main+0x18>
 
 080010bc <SystemClock_Config>:
 /**

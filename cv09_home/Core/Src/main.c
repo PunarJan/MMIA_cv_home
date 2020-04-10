@@ -173,13 +173,13 @@ int main(void)
   MX_USART3_UART_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-  face ();
-  /* USER CODE END 2 */
+   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  face ();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
