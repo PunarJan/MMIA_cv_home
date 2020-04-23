@@ -42,7 +42,7 @@
 #include "lwip/api.h"
 
 #define TELNET_THREAD_PRIO  ( tskIDLE_PRIORITY + 4 )
-#define CMD_BUFFER_LEN 254
+#define CMD_BUFFER_LEN 255
 
 
 

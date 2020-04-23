@@ -1,0 +1,2 @@
+httpd_cgi_ssi.c:78:14:LEDS_CGI_Handler	32	static
+httpd_cgi_ssi.c:117:6:LED_cgi_init	8	static

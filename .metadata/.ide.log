@@ -5879,3 +5879,96 @@
 2020-04-23 20:54:48,532 [ERROR] FreeRTOS:936 - Null or empty value: should not occur! (nothing added to the table)
 2020-04-23 20:54:49,448 [INFO] ApiDbMcu:451 - Load IP Config File for FREERTOS
 2020-04-23 20:54:49,590 [INFO] OpenFileManager:294 - Restore cursor
+2020-04-23 21:13:42,276 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 594740520 Bytes (905969664)
+2020-04-23 21:13:54,825 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 607945080 Bytes (905969664)
+2020-04-23 21:14:40,030 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 415497440 Bytes (905969664)
+2020-04-23 21:14:41,654 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: FREERTOS
+2020-04-23 21:14:41,654 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-04-23 21:14:41,654 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-04-23 21:14:41,654 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USB_OTG_FS
+2020-04-23 21:14:41,654 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-04-23 21:14:41,654 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: LWIP
+2020-04-23 21:14:41,654 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2020-04-23 21:14:41,654 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-04-23 21:14:41,654 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ETH
+2020-04-23 21:14:41,654 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2020-04-23 21:14:43,107 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\license.tmp_save
+2020-04-23 21:14:44,654 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\license.tmp
+2020-04-23 21:14:45,310 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\gpio.tmp_save
+2020-04-23 21:14:46,248 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\gpio.tmp
+2020-04-23 21:14:46,263 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-23 21:14:46,810 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\eth_vars.tmp_save
+2020-04-23 21:14:47,092 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\eth_vars.tmp
+2020-04-23 21:14:47,232 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\eth_inc.tmp_save
+2020-04-23 21:14:47,373 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\eth_inc.tmp
+2020-04-23 21:14:47,482 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\eth_HalInit.tmp_save
+2020-04-23 21:14:47,716 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\eth_HalInit.tmp
+2020-04-23 21:14:47,795 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\eth_Msp.tmp_save
+2020-04-23 21:14:48,060 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\eth_Msp.tmp
+2020-04-23 21:14:52,966 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-23 21:14:53,466 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2020-04-23 21:14:53,559 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_inc.tmp_save
+2020-04-23 21:14:53,684 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_inc.tmp
+2020-04-23 21:14:53,731 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_vars.tmp_save
+2020-04-23 21:14:53,919 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_vars.tmp
+2020-04-23 21:14:53,981 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_pfp.tmp_save
+2020-04-23 21:14:54,106 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_pfp.tmp
+2020-04-23 21:14:54,231 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_obj_creat.tmp_save
+2020-04-23 21:14:54,387 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_obj_creat.tmp
+2020-04-23 21:14:54,403 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_kernelStart.tmp_save
+2020-04-23 21:14:54,512 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_kernelStart.tmp
+2020-04-23 21:14:54,669 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_default_thread.tmp_save
+2020-04-23 21:14:54,809 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_default_thread.tmp
+2020-04-23 21:14:54,825 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_threads.tmp_save
+2020-04-23 21:14:54,997 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\rtos_threads.tmp
+2020-04-23 21:14:55,075 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Inc\FreeRTOSConfig.h_save
+2020-04-23 21:14:55,637 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Inc\FreeRTOSConfig.h
+2020-04-23 21:14:56,247 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Src\freertos.c_save
+2020-04-23 21:14:56,575 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Src\freertos.c
+2020-04-23 21:14:56,575 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-23 21:14:56,575 [INFO] ApiDbMcu:451 - Load IP Config File for LWIP
+2020-04-23 21:14:56,606 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2020-04-23 21:14:56,856 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\LWIP\App\lwip.c_save
+2020-04-23 21:14:57,231 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\LWIP\App\lwip.c
+2020-04-23 21:14:57,340 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\LWIP\App\lwip.h_save
+2020-04-23 21:14:57,622 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\LWIP\App\lwip.h
+2020-04-23 21:14:57,684 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\LWIP\Target\lwipopts.h_save
+2020-04-23 21:14:58,872 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\LWIP\Target\lwipopts.h
+2020-04-23 21:14:59,116 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\LWIP\Target\ethernetif.c_save
+2020-04-23 21:14:59,897 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\LWIP\Target\ethernetif.c
+2020-04-23 21:15:00,116 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\LWIP\Target\ethernetif.h_save
+2020-04-23 21:15:00,522 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\LWIP\Target\ethernetif.h
+2020-04-23 21:15:00,553 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-23 21:15:00,553 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2020-04-23 21:15:00,585 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-23 21:15:00,585 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-23 21:15:00,616 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USB_OTG
+2020-04-23 21:15:00,616 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-23 21:15:00,616 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-04-23 21:15:00,631 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-23 21:15:00,913 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Src\stm32f4xx_it.c_save
+2020-04-23 21:15:01,928 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Src\stm32f4xx_it.c
+2020-04-23 21:15:02,022 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Inc\stm32f4xx_it.h_save
+2020-04-23 21:15:02,287 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Inc\stm32f4xx_it.h
+2020-04-23 21:15:02,459 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Src\stm32f4xx_hal_msp.c_save
+2020-04-23 21:15:02,772 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Src\stm32f4xx_hal_msp.c
+2020-04-23 21:15:02,881 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\system.tmp_save
+2020-04-23 21:15:03,006 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\MXTmpFiles\system.tmp
+2020-04-23 21:15:03,037 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2020-04-23 21:15:03,256 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Src\stm32f4xx_hal_timebase_tim.c
+2020-04-23 21:15:03,444 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Inc\stm32f4xx_hal_conf.h_save
+2020-04-23 21:15:03,600 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Inc\stm32f4xx_hal_conf.h
+2020-04-23 21:15:03,741 [WARN] IPConfigManager:2701 - IP not found : USB_OTG
+2020-04-23 21:15:03,741 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-04-23 21:15:03,741 [WARN] CodeGenerator:2649 - IP not found : USB_OTG
+2020-04-23 21:15:03,741 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-04-23 21:15:03,819 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Inc\main.h_save
+2020-04-23 21:15:03,990 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Inc\main.h
+2020-04-23 21:15:04,037 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Src\main.c_save
+2020-04-23 21:15:04,428 [INFO] CodeEngine:206 - Generated code: C:\Users\Punar\Desktop\MMIA_cv_home\cv10_home\Core\Src\main.c
+2020-04-23 21:15:47,186 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 33431mS.
+2020-04-23 21:15:47,318 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-04-23 21:15:49,308 [INFO] ConfigFileManager:1066 - The Die is : DIE419
+2020-04-23 21:16:22,484 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 35166mS.
+2020-04-23 21:16:22,546 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 62mS.
+2020-04-23 21:16:22,731 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
